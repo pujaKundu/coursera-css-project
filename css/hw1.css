@@ -1,0 +1,112 @@
+body{
+	
+	font-size: 150%;
+	margin: 4%;
+}
+
+header{
+	background-image: url("/img/flywheel.jpg");
+	color: #ffffff;
+	text-align: center;
+	padding : 20px;
+    
+}
+a{
+	padding: 10px 50px 10px 50px;
+	background-color:rgba(255, 255, 255,0.3);
+	color:black;
+	text-decoration :  none;
+	margin:50px;
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius : 7px;
+	
+	
+}
+a:hover{
+	padding: 10px 50px 10px 50px;
+	background-color:rgba(255, 255, 255,1.0);
+	color: #000000;
+	border-radius : 7px;
+	margin:50px;
+}
+h2{
+	
+    color: #000000;
+}
+
+.right{
+	padding-left:2%;
+	width : 74%;
+	display : inline-block;
+}
+
+.left {
+	background-color: #1b851c;
+	width: 24%;
+	float:left;
+	
+	padding: 5% 0;
+}
+
+.left img{
+	border :solid 1px  black;
+	margin : 2%;
+	width : 80%; 
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+}
+table{
+	width : 75%; 
+	margin-left : 130px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+
+}
+table tr th{
+	border-bottom : 2px solid #2ec934;
+	background-color: #1f8c47;
+	padding:  15px  ;
+	-webkit-border-radius : 5px;
+	-moz-border-radius : 5px;
+	-o-border-radius : 5px;
+	
+}
+table tr th:nth-child(1){
+	text-align :left;
+}
+table tr td{
+	background-color :#f7f7f7;
+	opacity : 0.8;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+	
+}
+table tr td:hover{
+	background-color :#f7f7f7;
+	opacity : 1.0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+}
+
+@media screen and (max-width: 299px )
+{
+	background-color : red;
+}
+
+@media screen and (max-width: 700px )
+{
+	background-color : blue;
+}
+
+
+@media screen and (max-width: 1000px )
+{
+	background-color : gree;
+}
+
+
